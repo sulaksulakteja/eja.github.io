@@ -11,7 +11,7 @@ if (url.searchParams.get('by') != null) {
 
 
 document.querySelector(".tombol").addEventListener('click', function () {
-  Swal.fire("Hallo Pacarku", "hai sahabat aku ada pertanyaan nih buat kamu", "question").then(function () {
+  Swal.fire("Hallo Sahabat", "aku ada pertanyaan nih buat kamu", "question").then(function () {
     Swal.fire("Jawab yang jujur ya!").then(function () {
       Swal.fire("Awas aja kalau kamu bohong", "", "error").then(function () {
 
